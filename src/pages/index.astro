@@ -13,36 +13,50 @@ import Card from '../components/Card.astro';
 				
 				<a class="text-xl text-white font-semibold" href="#">Strategy Games Club</a>
 				
-				<a class="text-lg text-white font-semibold ml-8 self-center" href="youtube.com">Sign Up</a>
+				<a class="text-lg text-white font-semibold ml-8 self-center" href="https://forms.gle/snSEPXXTEJwEbuVSA">Sign Up</a>
 		  	</div>
 		</div>
 	</nav>
 	
-	<main class="w-screen">
+	<main class="relative w-full bg-grey">
 
 		
 		
-		<section class="grid container w-full">
+		<section class="">
 			<div class="">
-				<img src="/GamesClubPhoto.jpg" width="100%"/>
+				<img src="/GamesClubPhoto.jpg" class="blur-sm" />
 			</div>
 		</section>
 
+		
+
 		<br>
 
-		<section class="grid container place-items-center px-6 w-screen">
+		<section class="grid place-items-center px-6 w-screen">
 			<div class="text-xl text-gradient font-semibold">Sign Up!</div>
 			<div class="items-center self-center container mx-auto">
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwz0hW9WCwgI3T9p2QMUFnaZ1Tyfpq2zKCdRUG4eZ0HdTClQ/viewform?embedded=true" width="100%" height="526" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-				<div class="pl-40 text-xs">If form doesnt load go to <a class="text-sky-600" href="https://www.google.com">Google Forms</a></div>
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwz0hW9WCwgI3T9p2QMUFnaZ1Tyfpq2zKCdRUG4eZ0HdTClQ/viewform?embedded=true" width="100%" height="720" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+				<p class="text-xs">If form doesnt load go to <a class="text-sky-600" href="https://forms.gle/snSEPXXTEJwEbuVSA">Google Forms</a></p>
 			</div>
 		</section>
 
 		<br>
 
-		<section>
-			About us
+		<div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+
+		<section class="grid place-items-center px-6 w-screen h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+			<div class="text-xl font-bold">Join the <a class="text-sky-600" href="https://discord.gg/dUxZcvkYqU">Discord!</a></div>
+
+
 		</section>
+
+		<footer>
+			<div class="h-14 bg-gradient-to-r from-purple-500 to-pink-500 px-6 w-screen">
+				<p class="text-xs font-semibold">Source code at <a class="text-sky-600" href="https://github.com/Legonois/StratGamesClub/">GitHub.com</a></p>
+				<p class="text-xs font-bold">Copyright Wesley Baldwin, Jaxon Carey</p>
+			</div>
+			
+		</footer>
 	</main>
 </Layout>
 
